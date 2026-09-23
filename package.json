@@ -1,0 +1,22 @@
+{
+  "name": "mysql-mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "format": "prettier --write \"**/*.{ts,js}\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "mysql2": "^3.24.4",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.3"
+  }
+}

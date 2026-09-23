@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.env
+mysql-mcp-server.exe
+
+# Docker secrets (real credential files) - keep the folder structure/README only
+/secrets/*
+!/secrets/README.md
